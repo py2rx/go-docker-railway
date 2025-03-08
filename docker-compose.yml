@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.multistage
+    ports:
+      - "8084:8080" # Atau port lain yang Anda inginkan
